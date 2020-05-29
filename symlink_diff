@@ -1,0 +1,5 @@
+symlink("/product", "/system/system/product");
+symlink("/system/product_services", "/system/product_services");
+symlink("/vendor", "/system/system/vendor");
+symlink("../egl/libGLES_mali.so", "/vendor/lib/hw/vulkan.universal7870.so");
+symlink("egl/libGLES_mali.so", "/vendor/lib/libOpenCL.so.1.1");
